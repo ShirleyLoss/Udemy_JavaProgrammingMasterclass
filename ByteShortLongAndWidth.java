@@ -34,6 +34,13 @@ public class ByteShortLongAndWidth{
  
  /* In long value, need to put letter "L" on the end of it, and that tells the computer that it's going value.
   *     It doesn't matter if you put lowercase "l", or uppercase"L". "L" is clearier for reading code.
+  **/
 
 /* Running Result:
- * 
+ * Byte Minimum Value = -128
+ * Byte Maximum Value = 127
+ * Short Minimum Value = -32768
+ * Short Maximum Value = 32767
+ * Long Minimum Value = -9223372036854775808
+ * Long Maximum Value = 9223372036854775807
+ **/
