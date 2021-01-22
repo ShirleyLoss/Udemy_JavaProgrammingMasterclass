@@ -12,11 +12,22 @@ public class PrimitiveTypesChallenge{
       byte myByte = 32;
       short myShort = 28475;
       int myInt = 242_345_231;
-      long myLong = 50000 + 10 * (long)(myByte + myShort + myInt);
-      System.out.println("The long number is " + myLong);
+      
+      long longTotal = 50000L + 10L * (myByte + myShort + myInt);
+      long longTotal2nd = 50000 + 10 * (long)(myByte + myShort + myInt);
+      short shortTotal = (short)(1000 + 10 * (myByte + 278));
+      System.out.println("The long number is " + longTotal);
+      System.out.println("The long number is " + longTotal2nd);
+      System.out.println("The short number is " + shortTotal);
   
   }
 
 }
 
-// When it comes to long number, remember Casting.
+// When it comes to long number, remember Casting. Both two method works.
+
+/* Running Result:
+ * The long number is 2423787380
+ * The long number is 2423787380
+ * The short number is 4100
+ **/
